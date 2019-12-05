@@ -1,0 +1,46 @@
+dl{
+    display:table;
+    border-collapse: collapse;
+    width: 100%;
+    background-image: url("../images/paper.png");
+    background-size: repeat-y;
+    
+}
+dl .head{
+    display:table-row;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background: #313131;
+    ;
+}
+dl .head dt{
+    font-size: 400%;
+    color: rgb(245, 245, 245);
+    text-shadow: 2px 2px 0px rgb(184, 184, 184) ;
+    display: table-cell;
+    padding-top:100px;
+    padding:20px;
+}
+dl .vocab{
+    border-bottom: 1px solid black;
+    height: 100%;
+    background: rgb(179, 179, 179);
+    opacity: 0.9;
+    
+}
+dl .vocab dt, dd{
+    opacity: 1;
+    color: black;
+    display: table-cell;
+}
+dl .vocab dt{
+    font-size: 300%;
+    border-right: 1px solid black;
+    width: 15rem;
+    text-align: center;
+    padding:10px;
+}
+dl .vocab dd{
+    padding: 10px;
+    font-size: 200%;
+}
