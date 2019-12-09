@@ -44,3 +44,38 @@ dl .vocab dd{
     padding: 10px;
     font-size: 200%;
 }
+table tbody tr th {
+    width: 12rem;
+    height: 5rem;
+    background:rgb(75, 75, 75);
+    color: white;
+    vertical-align: middle;
+    text-decoration: underline;
+    font-size: 170%;
+    border: 2px solid white;
+}
+table{
+    background-image: url("../images/paper.png");
+}
+table tbody tr td{
+    background-color: grey;
+    font-size: 160%;
+    border: 2px solid black;
+    color: white;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table tbody{
+    border-collapse: collapse;
+    border: black;
+}
+table thead tr th{
+    width: 12rem;
+    height: 5rem;
+    background:rgb(75, 75, 75);
+    color: white;
+    vertical-align: middle;
+    text-decoration: underline;
+    font-size: 170%;
+    border: 2px solid white;
+}
