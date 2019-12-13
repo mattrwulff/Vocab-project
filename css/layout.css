@@ -79,3 +79,7 @@ table thead tr th{
     font-size: 170%;
     border: 2px solid white;
 }
+table thead tr:first-of-type{
+    font-family: 'Baskervville', serif;
+
+}
